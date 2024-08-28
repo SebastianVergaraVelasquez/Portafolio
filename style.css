@@ -1,0 +1,136 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color:#f4efed;
+}
+
+header {
+  padding: 20px;
+  background-color: white;
+  font-weight: 300;
+  font-size: xx-large;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+}
+
+#profile{
+  padding-top: 60px;
+}
+
+#profile_pic {
+  padding-top: 60px;
+}
+
+#obj_title{
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+#intro{
+  padding-right: 50px;
+  padding-top: 60px;
+  align-content: center;
+  text-align: justify;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+#pro{
+  padding-top: 60px;
+}
+
+#identity{
+  padding-top: 100px;
+  gap: 50px;
+}
+
+#identity img{
+  height: 300px;
+}
+
+#title_ser{
+  padding-left: 50px;
+  padding-top: 100px;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+#services{
+  padding-top: 60px;
+}
+
+#services img{
+    max-width: 100%;
+    height: auto;
+}
+
+#title_proj{
+  padding-left: 50px;
+  padding-top: 100px;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+#project1{
+  margin-top: 50px;
+  padding: 20px;
+  background-color: antiquewhite;
+}
+
+#project2{
+  background-color: antiquewhite;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+#proj2_img1 {
+  width: 200px;
+  height: 200px;
+}
+
+.circle {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.circle i {
+  font-size: 2rem;
+  color: #333; 
+}
+
+.circle img{
+  width: 40px;
+  height: 40px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#title_cont{
+  padding-top: 100px;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+#contact{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.cardhover:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
